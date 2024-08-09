@@ -2,7 +2,9 @@ This is just a little script that lists all of your files inside of inside a dir
 
 # How to use it
 ```
-python3 content.py <folder_dir>
+python3 context.py <folder_dir>
 ```
+
+This will give you an ```output.txt``` file in the same place ```context.py``` is.
 
 Note: You can skip folders you don't want to list as well
