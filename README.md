@@ -2,7 +2,7 @@ This is just a little script that lists all of your files inside of inside a dir
 
 # How to use it
 ```
-python content.py <folder_dir>
+python3 content.py <folder_dir>
 ```
 
 Note: You can skip folders you don't want to list as well
