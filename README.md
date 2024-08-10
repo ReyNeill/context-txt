@@ -12,7 +12,5 @@ python3 context.py <folder_dir> <optional_params>
 
 This will give you an ```output_context.txt``` file in the same place ```context.py``` is located.
 
-I personally use this command ( for react apps) :
+Note: I personally use this command ( for react apps) :
 ```python3 context.py klip/ -skip_dir temp,node_modules,.git,.next -skip_file favicon.ico,package-lock.json -skip_dot```
-
-Note: You can skip folders you don't want to list as well
