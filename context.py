@@ -19,6 +19,8 @@ def should_skip_file(file, exclude_files, skip_dot, skip_css, max_size, file_pat
         return True
     if skip_css and file.endswith('.css'):
         return True
+    if file.endswith('.png') or file.endswith('.gif'):  # Always skip .png and .gif files
+        return True
     if os.path.getsize(file_path) > max_size:
         return True
     return False
