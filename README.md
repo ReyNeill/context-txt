@@ -9,8 +9,9 @@ python3 context.py <folder_dir> <optional_params>
 - ```-skip_dir```  => Skips specified individual subdirectories separated by commas
 - ```-skip_file``` => Skips specified individual files separated by commas
 - ```-skip_dot```  => Skips all files starting with "." except envs (since this is contextual, can be changed)
+- ```-skip_css```  => Skips all files ending with ".css"
 
 This will give you an ```output_context.txt``` file in the same place ```context.py``` is located.
 
 Note: I personally use this command ( for react apps) :
-```python3 context.py <dir> -skip_dir temp,node_modules,.git,.next -skip_file favicon.ico,package-lock.json -skip_dot```
+```python3 context.py <dir> -skip_dir temp,node_modules,.git,.next -skip_file favicon.ico,package-lock.json -skip_dot -skip_css```
